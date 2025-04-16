@@ -12,7 +12,7 @@ Este projeto contém testes automatizados de API e de UI utilizando Cypress para
 
 ## 📋 Pré-requisitos
 
-- Node.js (v14 ou superior recomendado)
+- Node.js (v22 ou superior)
 - NPM ou Yarn
 
 ## 🔧 Instalação
