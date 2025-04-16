@@ -1,0 +1,42 @@
+{
+  "users": {
+    "validUser": {
+      "email": "inexistente@qa.com",
+      "password": "123"
+    },
+    "invalidUser": {
+      "email": "invalido@exemplo.com",
+      "password": "senhaerrada"
+    },
+    "adminUser": {
+      "email": "fulano@qa.com",
+      "password": "teste"
+    }
+  },
+  "selectors": {
+    "login": {
+      "emailInput": "[data-testid='email']",
+      "passwordInput": "[data-testid='senha']",
+      "loginButton": "[data-testid='entrar']"
+    },
+    "common": {
+      "addToShoppingListButton": "[data-testid='adicionarNaLista']"
+    },
+    "home": {
+      "searchInput": "[data-testid='pesquisar']",
+      "searchButton": "[data-testid='botaoPesquisar']",
+      "linkDetails": "[data-testid='product-detail-link']"
+    },
+    "shoppingList": {
+      "shoppingListProductName": "[data-testid='shopping-cart-product-name']",
+      "increaseQuantityButton": "[data-testid='product-increase-quantity']",
+      "decreaseQuantityButton": "[data-testid='product-decrease-quantity']",
+      "totalProductQuantity": "[data-testid='shopping-cart-product-quantity']",
+      "clearShoppingListButton": "[data-testid='limparLista']",
+      "shoppingCartEmptyMessage": "[data-testid='shopping-cart-empty-message']"
+    },
+    "productDetails": {
+      "productName": "[data-testid='product-detail-name']"
+    }
+  }
+}
