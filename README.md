@@ -1,4 +1,4 @@
-# Testes de API com Cypress para Serverest
+# Testes de API/Frontend com Cypress para Serverest
 
 Este projeto contém testes automatizados de API e de UI utilizando Cypress para a API de testes [Serverest](https://serverest.dev/) e [Front Serverest](https://front.serverest.dev/).
 
